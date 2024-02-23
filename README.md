@@ -1,8 +1,8 @@
-# Proyecto - Tipos Abstractos de Datos
+# Proyecto - Recursividad
 
 ## Descripción del Problema
 
-**Este ejercicio implementa el TAD Rational**
+**Este ejercicio implementa diferentes problemas recursivosl**
 
 ## Ejecución
 
