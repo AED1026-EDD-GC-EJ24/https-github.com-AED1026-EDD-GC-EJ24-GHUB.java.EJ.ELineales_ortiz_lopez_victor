@@ -1,7 +1,11 @@
 package miPrincipal;
 import java.util.Stack;
 public class DemoStack {
-    public static void main(String[] args) {
+    public static void menu() {
+        System.out.println("****************");
+        System.out.println("      STACK     ");
+        System.out.println("****************");
+        System.err.println();
        //Crea una nueva pila de Enteros
         Stack<Integer> pila = new Stack<Integer>();
         //Apilamos algunos enteros
