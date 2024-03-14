@@ -46,6 +46,8 @@ public class Delimitadores {
                             masElementosPorLeer=false;
                         }
                     }
+                    ///Faltaba esta linea en el versión incial
+                    break;
                 }
                 case '*':
                 {
