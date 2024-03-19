@@ -24,7 +24,6 @@ class AppTest {
         System.out.println(resultado);
         assertTrue(resultado,"Debe ser verdadero");
 
-
     }
 
     @Test public void testEvaluacionFallida(){
@@ -32,7 +31,6 @@ class AppTest {
         boolean resultado=objDel.evaluacionDelimitadores(expr);
         System.out.println(resultado);
         assertFalse(resultado,"Debe ser verdadero");
-
 
     }
     

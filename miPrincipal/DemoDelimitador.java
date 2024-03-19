@@ -12,10 +12,12 @@ public class DemoDelimitador {
            System.out.println("Expresion Correcta");
         else
            System.out.println("Expresion incorrecta");
+        
         expr= "while (m<(n[8]+o)) { "+
-               "int p=7; "+
+              "int p=7; "+
                "/*comentarios*/"+
-               "               } ";
+              "               } ";
+        
         if (objDel.evaluacionDelimitadores(expr))
             System.out.println("Expresión correcta");
         else
@@ -27,6 +29,7 @@ public class DemoDelimitador {
              System.out.println("Expresión correcta");
         else
             System.out.println("Expresión Incorrecta");
+        
     }
     
 }
