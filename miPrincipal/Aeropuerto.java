@@ -25,7 +25,12 @@ public class Aeropuerto implements Runnable{
 
                     if (!vuelo.getDestino().equals(nombre)) {
                         vuelo = null;
-                        colaVuelos.wait();
+                        try {
+                            colaVuelos.wait();
+                        } catch (InterruptedException e) {
+                            // TODO Auto-generated catch block
+                            e.printStackTrace();
+                        }
                     }
                 }
             }
