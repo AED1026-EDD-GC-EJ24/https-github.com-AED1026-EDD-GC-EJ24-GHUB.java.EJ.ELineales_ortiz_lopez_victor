@@ -23,7 +23,7 @@ public class DemoQueue {
         System.err.println();
 
         //Crea una cola generica
-        Queue micola = new LinkedList();
+        Queue<String> micola = new LinkedList<String>();
         //Agregar elementos a la cola en ese orden
         micola.add("elemento 0");
         micola.add("elemento 1");

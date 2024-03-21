@@ -38,7 +38,7 @@ public class Principal{
                 case 6:
                    DemoQueue.menu();
                    break;
-
+    
                 case 0:
                     System.out.println("ADIOS!");
                     consola.close();
