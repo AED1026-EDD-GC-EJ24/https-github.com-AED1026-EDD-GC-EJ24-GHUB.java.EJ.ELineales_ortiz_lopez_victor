@@ -2,6 +2,7 @@ package miPrincipal;
 import java.util.Hashtable;
 import java.util.LinkedList;
 
+
 import java.util.Collection;
 import java.util.Vector;
 public class HashTable2<T> {
@@ -21,6 +22,14 @@ public class HashTable2<T> {
         }
         lst.addLast(elm);
     }
+    public LinkedList<T> get(String key){
+        return tabla.get(key);
+    }
+    public Collection<String> keys(){
+        return claves;
+
+    }
+
     
     
 }
