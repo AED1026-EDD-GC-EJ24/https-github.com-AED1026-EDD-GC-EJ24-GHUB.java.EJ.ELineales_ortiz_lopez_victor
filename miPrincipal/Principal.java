@@ -1,7 +1,8 @@
 package miPrincipal;
 import java.util.Scanner;
 public class Principal{  
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PosicionIlegalException {
+        
         Scanner consola = new Scanner(System.in);
         int opc = 0;
         do{
@@ -61,7 +62,8 @@ public class Principal{
             }
 
         }while (opc !=0);
-
-        
     }
+
+    
+
 }
