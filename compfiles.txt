@@ -1,3 +1,5 @@
+./personas/Principal.java
+./personas/Persona.java
 ./miTest/AppTest.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
@@ -13,6 +15,7 @@
 ./miPrincipal/DemoDelimitador.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
+./miPrincipal/DemoLinkedListArrayList.java
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
