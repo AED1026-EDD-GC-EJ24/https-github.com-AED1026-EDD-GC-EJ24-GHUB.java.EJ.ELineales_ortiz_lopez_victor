@@ -15,9 +15,9 @@
 ./miPrincipal/DemoDelimitador.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
-./miPrincipal/DemoLinkedListArrayList.java
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/UNombres.java
+./miPrincipal/DemoLinkedListyArrayList.java

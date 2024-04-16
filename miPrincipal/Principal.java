@@ -9,15 +9,16 @@ public class Principal{
             System.out.println("***********************");
             System.err.println("  Estructuras Lineales ");
             System.out.println("***********************");
-            System.out.println(" 1) Pila");
-            System.out.println(" 2) Stack");
-            System.out.println(" 3) Delimitadores");
-            System.out.println(" 4) Expresion Infija a PostFija");
-            System.out.println(" 5) Cola");
-            System.out.println(" 6) DemoQueue");
-            System.out.println(" 7) Tablas de Dispersion");
-            System.out.println(" 8) Estructura Combinada");
-            System.out.println(" 9) Lista simplemente enlazada");
+            System.out.println(" 1)  Pila");
+            System.out.println(" 2)  Stack");
+            System.out.println(" 3)  Delimitadores");
+            System.out.println(" 4)  Expresion Infija a PostFija");
+            System.out.println(" 5)  Cola");
+            System.out.println(" 6)  DemoQueue");
+            System.out.println(" 7)  Tablas de Dispersion");
+            System.out.println(" 8)  Estructura Combinada");
+            System.out.println(" 9)  Lista simplemente enlazada");
+            System.out.println(" 10) LinkedList y ArrayList");
 
             System.out.println();
 
@@ -51,6 +52,9 @@ public class Principal{
                 case 9:
                      DemoListaSimple.menu();
                      break;
+                case 10:
+                    DemoLinkedListyArrayList.menu();
+                    break;
     
                 case 0:
                     System.out.println("ADIOS!");
