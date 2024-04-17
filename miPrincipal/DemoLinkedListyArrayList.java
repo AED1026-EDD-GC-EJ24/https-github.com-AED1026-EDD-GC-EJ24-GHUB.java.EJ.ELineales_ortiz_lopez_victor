@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.LinkedList;
 
+import java.util.Iterator;
+
 
 public class DemoLinkedListyArrayList {
     public static void menu(){
@@ -65,6 +67,17 @@ public class DemoLinkedListyArrayList {
             lista2.set(0,100);
             System.out.println("El contenido del elemento 0:"+lista2.get(0));
             System.out.println("Tamaño de Lista2 es:"+lista2.size());
+
+            System.out.println("Muestra la lista2 utilizando Iteradores:");
+
+            Integer temp = null;
+            Iterator<Integer> it = lista2.iterator();
+
+            while(it.hasNext())
+            {
+                temp = it.next();
+                System.out.println(temp);
+            }
 
 
 
