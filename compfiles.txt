@@ -7,6 +7,7 @@
 ./miPrincipal/Nodo.java
 ./miPrincipal/TestVector.java
 ./miPrincipal/Principal.java
+./miPrincipal/DemoArrayListPersonas2.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/DemoLinkedListCuadrupedos.java
 ./miPrincipal/DemoListaSimple.java
@@ -18,6 +19,7 @@
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
 ./miPrincipal/Cola.java
+./miPrincipal/DemoLinkedListCuadrupedos2.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/DemoEstCombinada.java

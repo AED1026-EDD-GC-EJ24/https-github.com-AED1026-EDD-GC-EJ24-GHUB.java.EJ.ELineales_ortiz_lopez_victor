@@ -6,8 +6,6 @@ package personas;
  *  con la implementación de un ArrayList.
  */
 
-
-
 public class Persona{
 
     private int idPersona;
@@ -15,7 +13,6 @@ public class Persona{
     private String nombre;
 
     private int altura;
-
  
 
     public Persona(int idPersona, String nombre, int altura) {
@@ -26,11 +23,9 @@ public class Persona{
 
         this.altura = altura;}
 
- 
-
-    public int getAltura() { return altura; } //Omitimos otros métodos get y set para simplificar
-
- 
+    public int getAltura() {
+         return altura;
+    } //Omitimos otros métodos get y set para simplificar
 
     @Override
 

@@ -2,6 +2,7 @@ package miPrincipal;
 import java.util.Hashtable;
 import java.util.Enumeration;
 
+
 public class DemoTablaDispersion {
     public static void menu(){
         System.out.println("*********************");
@@ -43,6 +44,11 @@ public class DemoTablaDispersion {
             aux = keys.nextElement();
             System.out.println(aux+" = "+tabla.get(aux));
          }
+         
+
+        
+
+            
 
 
     }

@@ -58,10 +58,10 @@ public class Principal{
                     DemoLinkedListyArrayList.menu();
                     break;
                 case 11:
-                    DemoArrayListPersonas.menu();
+                    DemoArrayListPersonas2.menu();
                     break;
                 case 12:
-                    DemoLinkedListCuadrupedos.menu();
+                    DemoLinkedListCuadrupedos2.menu();
                     break;
     
                 case 0:
