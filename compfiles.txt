@@ -9,12 +9,15 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoArrayListPersonas2.java
 ./miPrincipal/DemoStack.java
+./miPrincipal/ListaDeContactos.java
+./miPrincipal/Contacto.java
 ./miPrincipal/DemoLinkedListCuadrupedos.java
 ./miPrincipal/DemoListaSimple.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Lista.java
 ./miPrincipal/DemoPila.java
 ./miPrincipal/DemoArrayListPersonas.java
+./miPrincipal/DemoListaContactos.java
 ./miPrincipal/DemoDelimitador.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
