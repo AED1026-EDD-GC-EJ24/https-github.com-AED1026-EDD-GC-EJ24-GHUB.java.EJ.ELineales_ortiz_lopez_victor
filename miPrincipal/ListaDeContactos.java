@@ -74,7 +74,8 @@ public class ListaDeContactos {
             if (con==null){
                 return false;
             }else{
-                
+                con.setNombres(nombres);
+                con.setApellidos(apellidos);
                 con.setDireccion(direccion);
                 con.setCorreo(correo);
                 con.setTelefono(telefono);
