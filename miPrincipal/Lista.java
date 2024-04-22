@@ -1,6 +1,6 @@
 package miPrincipal;
 
-import static org.junit.jupiter.api.DynamicTest.stream;
+
 
 public class Lista<T> {
     //primer elemento de la lista

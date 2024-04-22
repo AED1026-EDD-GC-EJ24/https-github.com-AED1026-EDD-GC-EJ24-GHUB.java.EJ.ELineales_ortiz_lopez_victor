@@ -23,27 +23,39 @@ public class DemoListaContactos {
             System.out.println(listado.getValor(i));
         }
         
+        //Elimino primer elemento de la lista
         if (ldc.eliminarContacto("Fernando", "Castro"))
+        {
+           System.out.println("Contacto eliminado");
+        }
+        
+        //Elimino último elemento de la lista
+        if (ldc.eliminarContacto("Federico", "Cardenas"))
         {
             System.out.println("Contacto eliminado");
         }
-
-        listado =ldc.mostrasTodosLosContactos();
-        System.out.println("---Listado de todos los contacto despues de la eliminacion---");
-        
+        System.out.println("---Listado de todos los contacto depues de la eliminacion--");
+        listado = ldc.mostrasTodosLosContactos();
         for(int i=0;i<listado.getTamanio();i++){
             System.out.println(listado.getValor(i));
         }
+
         ldc.modificarContacto("Federica", "Cardenas",
-        "Cra 16 No 11-12 Cali","fernando@gmail.com","8252323","314878245");
+        "Cra 16 No 11-12 Cali","fede@gmail.com","8232322","3001257845");
         listado =ldc.mostrasTodosLosContactos();
         System.out.println("---Listado de todos los contacto despues de la modificacion---");
         
         for(int i=0;i<listado.getTamanio();i++){
             System.out.println(listado.getValor(i));
         }
+     
         System.out.println("---- Elemento Buscado ---");
-        System.out.println("Elemento buscado:"+ldc.buscarContacto("Carolina", "Sanchez"));
+        System.out.println("Elemento buscado:"+
+          ldc.buscarContacto("Carolina", "Sanchez"));
+        System.out.println("Elemento buscado:"+
+          ldc.buscarContacto("Carolina", "Sanches"));
+
+        
     
     }
     
