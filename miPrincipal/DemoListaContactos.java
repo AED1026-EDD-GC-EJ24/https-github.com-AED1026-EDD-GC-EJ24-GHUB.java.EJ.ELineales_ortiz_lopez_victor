@@ -55,8 +55,6 @@ public class DemoListaContactos {
         System.out.println("Elemento buscado:"+
           ldc.buscarContacto("Carolina", "Sanches"));
 
-        
-    
     }
     
 }
