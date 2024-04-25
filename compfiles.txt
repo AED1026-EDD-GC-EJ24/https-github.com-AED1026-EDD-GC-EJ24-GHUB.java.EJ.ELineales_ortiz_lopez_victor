@@ -24,6 +24,7 @@
 ./miPrincipal/DemoDelimitador.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
+./miPrincipal/DemoListaCircular.java
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoLinkedListCuadrupedos2.java
 ./miPrincipal/DemoCola.java
@@ -31,3 +32,5 @@
 ./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/UNombres.java
 ./miPrincipal/DemoLinkedListyArrayList.java
+./listaCircular/Nodo.java
+./listaCircular/ListaCircular.java
